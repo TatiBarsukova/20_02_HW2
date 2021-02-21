@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* transition: all .1s ease-in; */
+    font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif
+}
+
+.border_c{
+    padding: 20px;
+    background: #2B81AC; 
+}
+
+.intro {
+    width: 100%;
+    height: 910px;
+    color: white;
+    background-color: #3499CC;
+    font-size: 20px;
+    
+}
+
+h2, h4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 15% ;
+}
+
+.central {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+table {
+    width: 980px;
+    height: 620px;
+    margin-bottom: 20px;
+}
+
+table, tr, td {
+    border: 5px solid #fff;
+    border-collapse: collapse;
+}
+
+span, .wi {
+    font-size: 25px;
+    opacity: 0.6;
+}
+
+.Lisbon {
+    background-color: #3499CC
+}
+.Paris {
+    background-color: #33CCCC
+}
+
+.Belgrade {
+    background-color: #996799
+}
+
+.Kiev{
+    background-color: #C24747
+}
+
+.TelAviv {
+    background-color: #E2684A
+}
+
+.Cair {
+    background-color: #FFCC66
+}
+
+.NewYork {
+    background-color: #9ACC99
+}
+
+.NewDeihi {
+    background-color: #669999
+}
+.SanFrancisco
+{
+    background-color: #CD6699
+}
+.Tokyo {
+    background-color: #339967
+}
+
+.Sydney {
+    background-color: #66669A;
+}
+
+
+.Weather:hover td  {
+    opacity: 0.5;
+}
+
+.Weather td:hover {
+    opacity: 1;
+}
